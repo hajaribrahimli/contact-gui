@@ -27,7 +27,7 @@ def linear_search(data, target):
 def contact_add():
     name=nameinfo.get().strip()
     surname=surnameinfo.get().strip()
-    noumber=numberinfo.get().strip()
+    number=numberinfo.get().strip()
     if name=='' or surname=='' or number=='':
         messagebox.showwarning('error','name and surname cannot be empty')
         return
